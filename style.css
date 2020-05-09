@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+/*customization*/
+.blue1 {
+  color: #01c9f5;
+}
+.blue2 {
+  color: #0066ff;
+}
+.blue3 {
+  color: #0e1b38;
+}
+.newfont {
+  font-family: "Righteous", cursive;
+}
+.gap {
+  margin-bottom: 150px;
+}
+
+/*home*/
+.landing {
+  width: 100%;
+  height: 100vh;
+  background: #0e1b38;
+  margin-bottom: 250px;
+}
+#home .caption {
+  background: transparent;
+  position: absolute;
+  top: 30%;
+  color: white;
+}
+
+/*what we do*/
+/*projects*/
+#projects {
+  background: #0e1b38;
+  color: white;
+}
