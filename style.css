@@ -169,8 +169,8 @@ footer span a i {
 footer span a i:hover {
   color: #01c9f5 !important;
 }
-
-@media (max-width: 997px) {
+/*media*/
+@media (max-width: 993px) {
   body {
     font-size: 16px !important;
   }
@@ -209,6 +209,25 @@ footer span a i:hover {
   #technologies .box {
     width: 100px;
     height: 100px;
+  }
+  #technologies .box img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 769px) {
+  #home .caption {
+    top: 15%;
+  }
+  #home .navbar .navbar-collapse a {
+    padding: 10px 15px;
+  }
+  #home .navbar a.dropdown-item {
+    padding: 10px 25px;
+  }
+  #technologies .box {
+    width: 120px;
+    height: 120px;
   }
   #technologies .box img {
     max-width: 80%;
