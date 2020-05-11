@@ -271,6 +271,10 @@ footer span a i:hover {
     padding-top: 10px;
     font-size: 16px;
   }
+  input.form-control,
+  textarea.form-control {
+    font-size: 15px !important;
+  }
 }
 @media (max-width: 426px) {
   .landing {
@@ -278,5 +282,31 @@ footer span a i:hover {
   }
   #home .caption {
     top: 10%;
+  }
+  #home .navbar a.navbar-brand {
+    font-size: 20px !important;
+  }
+  button.navbar-toggler {
+    font-size: 13px;
+  }
+  #home .navbar a {
+    font-size: 13px !important;
+  }
+  #home .navbar a.dropdown-item {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 376px) {
+  #technologies .box {
+    width: 80px;
+    height: 80px;
+  }
+  #technologies .box img {
+    max-width: 60%;
+  }
+}
+@media (max-width: 360px) {
+  div.box.mx-5 {
+    margin: 0 20px !important;
   }
 }
