@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   font-family: "Roboto", sans-serif !important;
   font-weight: 300 !important;
@@ -19,16 +23,67 @@ body {
 .gap {
   margin-bottom: 150px;
 }
+.btn-primary {
+  background: #0066ff !important;
+}
+.btn {
+  border-radius: 50px !important;
+  padding: 10px 35px !important;
+  transition: 0.3s !important;
+}
+.btn:hover {
+  opacity: 0.8;
+}
 
 /*home*/
 #home .navbar {
-  background: #0e1b38;
+  background: rgb(14, 27, 56, 0.9);
 }
+#home .navbar .navbar-toggler {
+  border: solid 1px grey;
+}
+#home .navbar a {
+  color: white;
+  padding: 0 15px;
+  font-weight: 500 !important;
+  transition: 0.3s;
+}
+#home .navbar a:hover,
+#home .navbar a.active {
+  color: #01c9f5 !important;
+}
+
+#home .navbar a.dropdown-toggle:hover {
+  cursor: pointer;
+}
+#home .navbar .dropdown-menu {
+  background: rgb(32, 40, 56);
+}
+
+#home .navbar a.dropdown-item {
+  color: white !important;
+  border-top: solid 0.5px grey;
+  font-size: 13px;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+#home .navbar a.dropdown-item:hover {
+  background: rgb(32, 40, 56) !important;
+  color: #01c9f5 !important;
+}
+#home .navbar a.dropdown-item.active {
+  background: none;
+  color: #01c9f5 !important;
+}
+#home .navbar a.dropdown-item:first-child {
+  border-top: none;
+}
+
 .landing {
   width: 100%;
   height: 100vh;
   background: #0e1b38;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 #home .caption {
   background: transparent;
@@ -78,10 +133,13 @@ body {
 #side-contact button {
   background: white;
   color: black;
-  border-radius: 50px;
-  padding: 10px 35px;
 }
-
+/*technologies*/
+#technologies .box {
+  box-shadow: 0px 0px 15px rgb(211, 211, 211, 0.6);
+  width: 140px;
+  height: 140px;
+}
 /*contact*/
 #contacts {
   background: #0e1b38;
@@ -94,4 +152,20 @@ footer {
 footer hr {
   margin: 0;
   border: 0.5px solid grey;
+}
+footer span a i {
+  transition: 0.5s;
+}
+footer span a i:hover {
+  color: #0066ff !important;
+}
+
+@media (max-width: 1000px) {
+  #technologies .box {
+    width: 100px;
+    height: 100px;
+  }
+  #technologies .box img {
+    max-width: 80%;
+  }
 }

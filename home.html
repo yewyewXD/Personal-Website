@@ -68,7 +68,7 @@
                   aria-expanded="false"
                   >What we do</a
                 >
-                <div class="dropdown-menu bg-secondary">
+                <div class="dropdown-menu p-0">
                   <a class="dropdown-item" href="#projects">Projects</a>
                   <a class="dropdown-item" href="#advantages">Advantages</a>
                   <a class="dropdown-item" href="#features">Features</a>
@@ -104,7 +104,7 @@
     </div>
 
     <!--About-->
-    <div id="about" class="gap">
+    <div id="about" class="gap pt-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -211,7 +211,7 @@
     </div>
 
     <!--Projects-->
-    <div id="projects" class="py-5 gap">
+    <div id="projects" class="py-5 nb-5">
       <div class="container text-center">
         <h5 class="blue1 pt-5">Our Recent Projects</h5>
         <h1 class="py-4 newfont">
@@ -222,12 +222,12 @@
           deliver the best websites for you. Here are some of our recent
           projects we have worked on.
         </p>
-        <button class="btn btn-lg btn-primary my-5">See Details</button>
+        <button class="btn btn-md btn-primary my-5">See Details</button>
       </div>
     </div>
 
     <!--Advantages-->
-    <div id="advantages">
+    <div id="advantages" class="pt-5">
       <div class="container">
         <div class="row gap">
           <div class="col-lg-6">
@@ -269,7 +269,7 @@
       </div>
 
       <!--side contact-->
-      <div class="p-5 gap" id="side-contact">
+      <div class="p-5 mb-5" id="side-contact">
         <div class="container">
           <div class="d-flex align-items-center justify-content-between">
             <div class="side-contact-caption">
@@ -281,9 +281,9 @@
             </div>
 
             <div>
-              <button class="btn btn-md">
+              <a class="btn btn-md bg-light" href="#contacts">
                 Get in Touch
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -291,7 +291,7 @@
     </div>
 
     <!--Features-->
-    <div id="features" class="gap">
+    <div id="features" class="mb-5 pt-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 my-auto">
@@ -337,24 +337,48 @@
     </div>
 
     <!--Technologies-->
-    <div id="technologies" class="gap">
+    <div id="technologies" class="gap pt-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7 my-auto">
-            <div class="row">
-              <div class="col-4"><img src="img/html5.png" alt="" /></div>
-              <div class="col-4"><img src="img/css3.png" alt="" /></div>
-              <div class="col-4"><img src="img/js.png" alt="" /></div>
+          <div class="col-lg-7 col-md-6">
+            <div class="row pb-xl-3 pb-2 d-flex justify-content-center">
+              <div
+                class="box mr-3 mr-xl-5 d-flex align-items-center justify-content-center"
+              >
+                <img class="img-fluid" src="img/html5.png" alt="" />
+              </div>
+              <div
+                class="box mr-3 mr-xl-5 d-flex align-items-center justify-content-center"
+              >
+                <img class="img-fluid" src="img/css3.png" alt="" />
+              </div>
+              <div
+                class="box mr-3 mr-xl-5 d-flex align-items-center justify-content-center"
+              >
+                <img class="img-fluid" src="img/js.png" alt="" />
+              </div>
             </div>
 
-            <div class="row pt-5">
-              <div class="col-4"><img src="img/bootstrap4.png" alt="" /></div>
-              <div class="col-4"><img src="img/sass.png" alt="" /></div>
-              <div class="col-4"><img src="img/jquery.png" alt="" /></div>
+            <div class="row d-flex justify-content-center">
+              <div
+                class="box mr-3 mr-xl-5 d-flex align-items-center justify-content-center"
+              >
+                <img src="img/bootstrap4.png" alt="" />
+              </div>
+              <div
+                class="box mr-3 mr-xl-5 d-flex align-items-center justify-content-center"
+              >
+                <img class="img-fluid" src="img/sass.png" alt="" />
+              </div>
+              <div
+                class="box mr-3 mr-xl-5 d-flex align-items-center justify-content-center"
+              >
+                <img class="img-fluid" src="img/jquery.png" alt="" />
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-md-6 my-auto">
             <h5 class="blue1">Technologies</h5>
             <h2 class="newfont pt-4 pb-3">
               Integrating cutting-edge web technologies
@@ -460,5 +484,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="js.js"></script>
   </body>
 </html>
