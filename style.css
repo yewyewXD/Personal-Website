@@ -233,3 +233,50 @@ footer span a i:hover {
     max-width: 80%;
   }
 }
+@media (max-width: 577px) {
+  body {
+    font-size: 15px !important;
+  }
+  .gap {
+    margin-bottom: 60px;
+  }
+  h1 {
+    font-size: xx-large !important;
+  }
+  h2,
+  h3 {
+    font-size: x-large !important;
+  }
+  h4 {
+    font-size: large;
+  }
+  h5 {
+    font-size: medium !important;
+  }
+  #about .section1 {
+    padding-bottom: 30px;
+  }
+  #features .feature img {
+    width: 60px;
+    height: 60px;
+  }
+  .btn {
+    padding: 5px 20px !important;
+  }
+  #technologies .box {
+    width: 100px;
+    height: 100px;
+  }
+  #features .feature p {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 426px) {
+  .landing {
+    height: 80vh;
+  }
+  #home .caption {
+    top: 10%;
+  }
+}
