@@ -44,6 +44,11 @@ body {
 #home .navbar a.navbar-brand {
   font-size: 24px !important;
 }
+#icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
 #home .navbar .navbar-toggler {
   border: solid 1px grey;
 }
@@ -296,18 +301,33 @@ footer span a i:hover {
   #home .navbar a.dropdown-item {
     font-size: 11px !important;
   }
+  #icon {
+    width: 25px;
+    height: 25px;
+  }
+  #about img {
+    padding: 0;
+    margin-top: -100px;
+    max-width: 100%;
+  }
 }
+@media (max-width: 420px) {
+  div.box.mx-5 {
+    margin: 0 20px !important;
+  }
+}
+
 @media (max-width: 376px) {
+  #about img {
+    padding: 0;
+    margin-top: -80px;
+    max-width: 100%;
+  }
   #technologies .box {
     width: 80px;
     height: 80px;
   }
   #technologies .box img {
     max-width: 60%;
-  }
-}
-@media (max-width: 360px) {
-  div.box.mx-5 {
-    margin: 0 20px !important;
   }
 }
