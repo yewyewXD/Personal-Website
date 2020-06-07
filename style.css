@@ -165,7 +165,9 @@ body {
   box-shadow: 0px 0px 15px rgb(211, 211, 211, 0.6);
   width: 140px;
   height: 140px;
+  padding: 20px;
 }
+
 /*contact*/
 #contacts {
   background: #0e1b38;
