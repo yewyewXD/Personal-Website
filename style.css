@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth !important;
 }
-
 body {
   font-family: "Roboto", sans-serif !important;
   font-weight: 300 !important;
@@ -70,7 +69,6 @@ body {
 #home .navbar .dropdown-menu {
   background: rgb(32, 40, 56);
 }
-
 #home .navbar a.dropdown-item {
   color: white !important;
   border-top: solid 0.5px grey;
@@ -103,7 +101,6 @@ body {
   top: 25%;
   color: white;
 }
-
 #about-pic {
   border-radius: 0px;
   max-width: 100%;
@@ -111,7 +108,6 @@ body {
   box-shadow: 0px 0px 20px grey;
 }
 
-/*what we do*/
 /*projects*/
 #projects {
   background: #0e1b38;
@@ -123,9 +119,7 @@ body {
   align-items: center;
 }
 #projects a i {
-  padding-left: 5px;
   font-size: 25px;
-  color: white;
 }
 
 /*Advantages*/
@@ -136,7 +130,6 @@ body {
 #advantages-pic2 {
   width: 80%;
 }
-
 #advantages-pic2 {
   box-shadow: 0 0 20px grey;
 }
@@ -193,14 +186,12 @@ footer span a i:hover {
   body {
     font-size: 16px !important;
   }
-
   #home .caption {
     top: 20%;
   }
   .landing {
     margin-bottom: 50px;
   }
-
   #about-pic {
     display: none;
   }
@@ -216,18 +207,16 @@ footer span a i:hover {
     max-width: 100%;
     width: 100%;
   }
-
   #advantages-pic2 {
     display: none;
   }
-
   #features {
     text-align: center;
   }
-
   #technologies .box {
     width: 100px;
     height: 100px;
+    padding: 5px;
   }
   #technologies .box img {
     max-width: 80%;
@@ -295,6 +284,7 @@ footer span a i:hover {
     font-size: 15px !important;
   }
 }
+
 @media (max-width: 426px) {
   .landing {
     height: 80vh;
@@ -324,6 +314,7 @@ footer span a i:hover {
     max-width: 100%;
   }
 }
+
 @media (max-width: 420px) {
   div.box.mx-5 {
     margin: 0 20px !important;
