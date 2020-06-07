@@ -117,6 +117,17 @@ body {
   background: #0e1b38;
   color: white;
 }
+#projects a {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#projects a i {
+  padding-left: 5px;
+  font-size: 25px;
+  color: white;
+}
+
 /*Advantages*/
 #advantages-pic,
 #advantages-pic2 {
