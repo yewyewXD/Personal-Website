@@ -1,6 +1,23 @@
-#ClonePro <br>
-About: A personal website to promote myself and for practicing Bootstrap. <br>
-Start Date: 09 May 2020 <br>
-Status: Completed (on 11 May 2020) <br>
+# ClonePro
+
+## Description
+
+A static website I built to practice Bootstrap.
+
+## Build status
+
+**Success:** [See Live](https://clonepro.netlify.app/)
+
+Started on: 09 May 2020 <br>
+Completed on: 11 May 2020 <br>
 Last modified on: 12 Jul 2020 <br>
-Skills: HTML, CSS, Bootstrap
+
+## Screenshots
+
+![Landing Page](https://github.com/yewyewXD/Personal-Website/blob/master/readme-images/landing.jpg?raw=true "Landing Page")
+
+## Tech/framework used
+
+- HTML
+- CSS
+- Bootstrap
