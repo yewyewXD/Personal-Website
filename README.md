@@ -6,8 +6,6 @@ A static website I built to practice Bootstrap.
 
 ## Build status
 
-**Success:** [See Live](https://clonepro.netlify.app/)
-
 Started on: 09 May 2020 <br>
 Completed on: 11 May 2020 <br>
 Last modified on: 12 Jul 2020 <br>
